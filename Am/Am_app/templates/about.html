@@ -1,0 +1,216 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>TECHNO FAB</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Construction Company Website Template" name="keywords">
+        <meta content="Construction Company Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="{% static 'img/favicon.ico' %}" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="{% static 'lib/flaticon/font/flaticon.css' %}" rel="stylesheet">
+        <link href="{% static 'lib/animate/animate.min.css' %}" rel="stylesheet">
+        <link href="{% static 'lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+        <link href="{% static 'lib/lightbox/css/lightbox.min.css' %}" rel="stylesheet">
+        <link href="{% static 'lib/slick/slick.css' %}" rel="stylesheet">
+        <link href="{% static 'lib/slick/slick-theme.css' %}" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    </head>
+
+
+    <body>
+  <div class="wrapper">
+    <!-- Top Bar Start -->
+    <div class="top-bar">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-12 text-center">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="{% static 'img/logo1.png' %}" alt="Logo" > <!-- Adjusted height -->
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-7 d-none d-lg-block">
+                    <div class="row justify-content-center">
+                        <div class="col-4 text-center">
+                            <div class="top-bar-item">
+                                <div class="top-bar-icon">
+                                    <i class="flaticon-call"></i>
+                                </div>
+                                <div class="top-bar-text">
+                                    <h3 style="font-weight: bold;">Call Us</h3>
+                                    <p style="font-weight: bold;">+91 9620669723</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 text-center">
+                            <div class="top-bar-item">
+                                <div class="top-bar-icon">
+                                    <i class="flaticon-send-mail"></i>
+                                </div>
+                                <div class="top-bar-text">
+                                    <h3 style="font-weight: bold;">Email Us</h3>
+                                    <p style="font-weight: bold;">technofab.mkt@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top Bar End -->
+
+    <!-- Nav Bar Start -->
+    <div class="nav-bar">
+        <div class="container-fluid">
+             <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                        <a href="#" class="navbar-brand">MENU</a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto">
+                                <a href="{% url 'index' %}" class="nav-item nav-link active">Home</a>
+                                 <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">About</a>
+                                    <div class="dropdown-menu">
+                                         <a href="{% url 'dop_view1' %}" class="dropdown-item">About </a>
+                                        <a href="{% url 'dop_view1' %}" class="dropdown-item"> DOP </a>
+
+                                        <a href="{% url 'listofmachine_view' %}" class="dropdown-item">List of Machineries and Equipments:  </a>
+
+
+                                        </div>
+                                    </div>
+
+                                <a href="#service" class="nav-item nav-link">Service</a>
+                                 <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">PROJECT</a>
+                                    <div class="dropdown-menu">
+                                        <a href="{% url 'ongoing_project_view' %}" class="dropdown-item">Major Completed Project </a>
+
+
+
+
+                                        </div>
+                                    </div>
+<a href="#service" class="nav-item nav-link">Service</a>
+                                 <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Certificate</a>
+                                    <div class="dropdown-menu">
+                                        <a href="{% url 'certificate_view' %}" class="dropdown-item">Certificate </a>
+
+
+
+
+                                        </div>
+                                    </div>
+                                <a href="#contact" class="nav-item nav-link">Contact</a>
+                            </div>
+                            <div class="ml-auto">
+
+                            </div>
+                        </div>
+                    </nav>
+        </div>
+    </div>
+    <!-- Nav Bar End -->
+</div>
+    <div class="wrapper">
+        <!-- Top Bar Start -->
+        <!-- ... -->
+        <!-- Top Bar End -->
+
+        <!-- Nav Bar Start -->
+        <!-- ... -->
+        <!-- Nav Bar End -->
+
+        <!-- Carousel Start -->
+        <!-- ... -->
+        <!-- Carousel End -->
+
+        <!-- About Start -->
+        <br>
+        <div class="container-fluid py-5" style="background-color: #f8f9fa;">
+            <div class="section-header text-center mb-4">
+
+                <h2>TECHNO FAB</h2>
+            </div>
+            <div class="about-text px-4">
+                <p class="lead text-justify">
+                    We introduce ourselves as one of the major manufacturers of <b>Pre Engineered Buildings (P E B) structures,</b> Civil
+                    Construction Works & EOT Cranes & enjoying the coveted privilege of being recognized as the largest manufacturer of
+                    PEB structures in north Karnataka. We are situated at Gamangatti Industrial Area, Hubballi, Karnataka State.
+                </p>
+                <p class="lead text-justify">
+                    <b><u>Company Strength:</u></b>
+                </p>
+                <p class="lead text-justify">
+                    We come from a background rich in fabrication experience, spanning more than 25 years. We are also updated & upgraded with
+                    state-of-the-art technology. We are confident in handling all challenges related to PEB structures. (For all kinds of applications.)
+                </p>
+                <p class="lead text-justify">
+                    We design, manufacture & carry out erection on-site for simple to highly sophisticated projects across India. We
+                    also undertake “TURNKEY” projects, including civil works. In essence, we provide our customers with <b>“END TO END SOLUTIONS”.</b>
+                </p>
+                <p class="lead text-justify">
+                    We deeply appreciate our valued customers for all their support, which has allowed us to exist strongly and with great pride today.
+                </p>
+                <p class="lead text-justify">
+                   Our solutions are consistent with the goals of our customers. We research, design, develop and present multiple
+solutions of appropriate design, which will support the customer to select the best. The partner of the firm, who is
+technically qualified & with a business experience of more than 35 years. All the PEB projects/Operations of the
+Company are supervised & managed by the technically qualified partner.
+We have a good qualified team of professionals to support the management to complete the  project timely & to give
+the high standard customer services/satisfaction. Our customers are assured with confidence that they are dealing with
+the decision maker who is aware of the importance of success of every time bound project.
+                </p>
+
+                <p><b><u>Projects Scope at our Factory:</u></b></p>
+
+                 <p class="lead text-justify">
+                Factory Buildings, Shopping Malls, Cinema Theatres, Ware houses, Large Go-downs, Cold Storage Units, Multi-Storied
+                     Complexes & Building, Roofing for stadiums etc. of areas ranging from 5000 to 250000 Sq.Ft. under one roof. </p>
+
+                 <p><b><u>Mission:</u></b></p>
+
+                 <p class="lead text-justify">
+               Becoming the leader of PEB manufacturer in the entire South India by 2027.
+Company Registration : Company is registered under MSME. </p>
+                <p class="lead text-justify">
+Considering the upcoming market demand for PEB Structures, Company has taken a lead role in the Design, Manufacture,
+Erection & Commissioning PEB structures since 2010.</p>
+
+
+                 <p><b><u>Manufacturing range of Products: :</u></b></p>
+                <p>P E B Structures : From 10000 to 250000 Sq.Ft. Overhead cranes
+Capacity : From 2Tons to 25Tons. </p>
+<br>
+                <p>Man Power Details
+: Administration staff                          --- 15 Nos<br>
+Managers / Supervisors / Workers --- 60 Nos(Contract)<br>
+Workers                                              ---- 100 Nos<br>
+Erection Team Strength                  -----10Teams (Each team of 25 people)
+</p>
+
+
+            </div>
+        </div>
+        <!-- About End -->
+    </div>
+</body>
+</html>
